@@ -11,5 +11,4 @@ Stack Linked List<br>
 Queue Array<br>
 Queue Linked List<br>
 </h4>
-<br>
-<h3>tutorial</h3>
+<h3>Tutorial</h3>
