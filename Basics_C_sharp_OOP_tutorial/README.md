@@ -1,14 +1,15 @@
 # C# Projects
 my junior C# prjects:
-
-encapsulation
-constructors
-overloading
-override
-inheritance
-polymorphism
-abstract
-interfaces
-exception handling
-
+<br>
+encapsulation <br>
+constructors<br>
+overloading<br>
+override<br>
+inheritance<br>
+polymorphism<br>
+abstract<br>
+interfaces<br>
+exception handling<br>
+<br>
 tutorial
+
