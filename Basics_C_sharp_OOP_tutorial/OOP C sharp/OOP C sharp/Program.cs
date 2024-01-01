@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -168,6 +169,43 @@ namespace OOP_C_sharp
             }
             Console.WriteLine("The rest of the programme"); // the rest of the code goes there
 
+
+            Console.WriteLine("\n_____________FILE IO_____________\n");
+            // File I/O explanation 
+            // Using System.IO;
+
+            // Inserting path into string variable
+            String filepath = @"C:\Users\dell\Desktop\New Text Document.txt";
+
+            // Writing into file
+            string inputstring = "File Method :\r\n\tDescription.\r\n\r\nFile.WriteAllText :\r\n\tUsed For Writing into File.\r\nFile.Exists : \r\n\tFile exists used to check if a particular file exists.\r\nFile.ReadAlllines : \r\n\tUsed to read all the lines one by one in a file.\r\nFile.ReadAllText : \r\n\tUsed to read all the lines in a file at once.\r\nFile.Copy : \r\n\tThe method is used to make a copy of an existing file.\r\nFile.Delete : \r\n\tThe method is used to delete an existing file.\r\n";
+            File.WriteAllText(filepath, inputstring);
+
+            // Checking if the file exists
+            if (File.Exists(filepath))
+            {
+                Console.WriteLine("File Exists");
+            }
+            Console.WriteLine();
+
+            // save every line in the file into array of string elements
+            string[] s = File.ReadAllLines(filepath);
+            foreach (string s2 in s) // print it element by element
+            {
+                Console.WriteLine(s2);
+            }
+            Console.WriteLine();
+
+            // save every line in the file in one string
+            string second = File.ReadAllText(filepath);
+            Console.WriteLine(second);
+
+            // Copying file in specific path into another path
+            string Copy_Path = @"C:\Users\dell\Desktop\Second New Text Document.txt"; // second
+            File.Copy(filepath, Copy_Path);
+
+            // Deleting file
+            File.Delete(Copy_Path);
         }
     }
 }

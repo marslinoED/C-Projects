@@ -1,0 +1,8 @@
+D:\vs\OOP C sharp\OOP C sharp\bin\Debug\OOP C sharp.exe.config
+D:\vs\OOP C sharp\OOP C sharp\bin\Debug\OOP C sharp.exe
+D:\vs\OOP C sharp\OOP C sharp\bin\Debug\OOP C sharp.pdb
+D:\vs\OOP C sharp\OOP C sharp\obj\Debug\OOP C sharp.csproj.AssemblyReference.cache
+D:\vs\OOP C sharp\OOP C sharp\obj\Debug\OOP C sharp.csproj.SuggestedBindingRedirects.cache
+D:\vs\OOP C sharp\OOP C sharp\obj\Debug\OOP C sharp.csproj.CoreCompileInputs.cache
+D:\vs\OOP C sharp\OOP C sharp\obj\Debug\OOP C sharp.exe
+D:\vs\OOP C sharp\OOP C sharp\obj\Debug\OOP C sharp.pdb
